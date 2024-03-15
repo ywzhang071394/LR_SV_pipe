@@ -23,7 +23,9 @@ Usage: perl LR_SV_pipe.pl config.tsv
 
 ## Step 1 ## 
   prepare your sample list file (sample.lst)
+  
   format: #id sequencing_platform path_of_fastq
+  
   Note: specify the sequencing platform as the parameter -x used in minimap2 (https://lh3.github.io/minimap2/minimap2.html). 
   
 ## Step 2 ## 
@@ -31,6 +33,7 @@ Usage: perl LR_SV_pipe.pl config.tsv
 
 ## Step 3 ##
   run **perl LR_SV_pipe.pl config.tsv**
+  
   Please be sure the output dir is writtable and all softwares can be invoked. 
 
 
