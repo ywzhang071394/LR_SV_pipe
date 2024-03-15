@@ -8,9 +8,13 @@ Usage: perl LR_SV_pipe.pl config.tsv
 
 ## Prerequisite ##
 **Option 1:** set a environment for LSF job on compute1 by adding the following to ~/.bashrc file:
+
     export PATH=/rdcw/fs1/dinglab/Active/Projects/yuweiz/anaconda/envs/longread_cv/bin/:$PATH
+    
     export STORAGE1=/rdcw/fs1/dinglab/Active export SCRATCH1=/rdcw/fs1/dinglab/
+    
     export LSF_DOCKER_VOLUMES="$STORAGE1:$STORAGE1"
+    
   do NOT forget to run `source ~/.bashrc`
   
 **Option 2:** modify the configure file (config.tsv)
